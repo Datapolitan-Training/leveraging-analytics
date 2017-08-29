@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Management Academy: Analytics for the Data-Driven Managers</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="slide.css"/>
+  </head>
+  <body>
+    <textarea id="source">
+
+layout:true
+
+<p class="footer">
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Analytics for the Data-Driven Manager</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.datapolitan.com" property="cc:attributionName" rel="cc:attributionURL">Richard Dunks</a> and <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.tinypanther.pizza" property="cc:attributionName" rel="cc:attributionURL">Julia Marden</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative-Commons-License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+</p>
+
+--
+
+class:center, middle
+![img-center-50](images/datapolitan.png)
+
+# Management Academy
+## Analytics for the Data-Driven Manager
+
+- - -
+
+## Instructors: Richard Dunks and Julia Marden
+### Follow along at: http://bit.ly/ma-data-driven-analytics
+
+#### See the code at: http://bit.ly/ma-data-driven-analytics-code
+
+---
+
+class:center,middle
+# Welcome
+## [Day 2](#day2)
+
+---
+
+# Data Driven Culture
+![img-center-100](images/ddc_compass.png)
+
+---
+
+# Introduce Yourself to Your Neighbor
++ Who you are
++ Where you work
++ What has been the proudest moment in your job?
+
+---
+
+# What to Expect Today
++ 9:45 – Data Driven Government
++ 10:45 – 15 min break
++ 11:00 – Data Analytics and the Data Driven Culture
++ 12:30 – Lunch
++ 1:00 – Data Analytics Process and Open Data
++ 2:00 – Data Analytics Exercise
++ 2:30 – 15 min break
++ 2:45 – Data Analytics Exercise (continued)
++ 4:00 – Dismissal
+
+---
+
+# Housekeeping
+--
+
++ We’ll have one 15 minute break in the morning
+--
+
++ We’ll have a half-hour for lunch
+--
+
++ We’ll have a 15 minute break in the afternoon
+--
+
++ Class will start promptly after breaks
+--
+
++ Feel free to use the bathroom if you need during class
+--
+
++ Please take any phone conversations into the hall to not disrupt the class
+
+---
+
+# Data Driven Decisions Require Humans
+--
+
+![img-center-50](images/iphone_intel.jpg)
+
+.caption[Image Credit: 100 lion, [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3AIphone-62.jpg)]
+
+## [How Intel lost out on the contract of a lifetime](http://appleinsider.com/articles/13/05/16/intel-chips-could-have-powered-first-iphone-ceo-otelini-says)
+
+---
+
+# The Value of Data
+--
+
++ Data tells a story about something that's happened
+--
+
++ Can describe the what happened directly or indirectly
+--
+
+
+![img-center-100](images/311data.png)
+
+---
+
+class: center,middle
+# Are All Data Points Created Equal?
+
+---
+
+class:middle
+> Facts do not "speak for themselves." They speak for or against competing theories. Facts divorced from theory or visions are mere isolated curiosities.
+
+##-Thomas Sowell *A Conflict of Visions*
+
+---
+
+# Being data-driven doesn't mean blindly following data
+
+![img-center-80](images/blindlyfollowdata.jpg)
+
+.caption[Image Credit: zhouxuan12345678, [CC BY-SA 2.0](https://creativecommons.org/licenses/by/2.0/), via [Flickr](https://www.flickr.com/photos/53921113@NO2/5453212152)]
+
+---
+
+class:middle
+> Data is only as valuable as the decisions it enables. 
+
+## -[Ion Stoica](https://twitter.com/databricks/status/810190036624875520)
+
+---
+
+# What is Analysis?
+--
+
+>“Analysis is simply the pursuit of understanding, usually through detailed inspection or comparison”
+
+## - Carter Hewgley, Director of Analytics, [Center for Government Excellence](https://govex.jhu.edu/)
+
+---
+
+class:center, middle
+# Data Analysis Should Drive Decision Making
+# &nbsp;
+## &nbsp;
+
+---
+
+class:center, middle
+# Data Analysis Should Drive Decision Making
+# This is what it means to be "data driven"
+## &nbsp;
+
+---
+
+class:center, middle
+# Data Analysis Should Drive Decision Making
+# This is what it means to be "data driven"
+## And good analysis should lead to good decisions
+
+---
+
+# Reports don't make you data driven
+
+![img-center-45](images/datadriven_reports.png)
+.caption[Image Credit: RRZEicons, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Report.svg)]
+
+---
+
+# Dashboards don't make you data driven
+
+![img-center-60](images/datadriven_dashboard.png)
+.caption[Image Credit: Chabe01, [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ADashboard_OS_X.svg)]
+
+---
+
+# Alerts don't make you data driven
+
+![img-center-60](images/datadriven_alert.png)
+.caption[Image Credit: Tokyoship, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ASimple_Alert.svg)]
+
+---
+
+# It's Putting Them All Together
+
+![img-center-80](images/valuechain.png)
+
+---
+
+class: middle
+> "If you do not know how to ask the right question, you discover nothing."
+
+## - W. Edward Deming
+
+---
+
+class:center, middle
+# Types of Analysis
+
+---
+
+# 1. Quantifying Needs
+--
+
++ How much of X do I need?
+--
+
++ What goes into producing X (time, money, resources, people, etc.)?
+--
+
++ How much does my need change given a different set of conditions?
+--
+
++ How does X play into my organization’s mission and goals?
+--
+
++ What’s the most meaningful way of quantifying X?
+---
+
+# Using Data to Fight Fires
+
+![img-center-90](images/fires.png)
+.caption[Image Credit: [NYC Mayor's Office of Data Analytics](http://www1.nyc.gov/site/analytics/index.page), [2013 Annual Report](https://assets.documentcloud.org/documents/1173791/moda-annual-report-2013.pdf)]
+
+---
+
+# 2. Operational Analysis
+--
+
++ What is my organization doing?
+--
+
++ How might my organization do things better?
+--
+
++ What are your organization’s mission and goals?
+--
+
++ How do your employees do their work?
+--
+
++ What’s the best way to measure this work?
+
+---
+
+# Value of Good Operational Analysis
+
+![img-center-55](images/cincinnatilatefees.jpg)
+.caption[Image Credit: Money by Andrew Magill, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via Flickr]
+--
+
+## City of Cincinnati saved $130,000 in late fees to utility company
+[Learn more](http://www.charlotteobserver.com/news/business/article32617293.html)
+
+---
+
+# 3. Performance Metrics
+--
+
++ How is my organization doing?
+--
+
++ How do we make this data visible to the people who need it?
+--
+
++ What is most important to measure (think mission and goals)?
+--
+
++ How do we best measure performance?
+
+---
+
+# Tracking Hurricane Sandy Relief Funds
+
+![img-center-70](images/sandytracker.png)
+.caption[Image Credit: The City of New York, via [NYC.Gov](http://www1.nyc.gov/sandytracker/#2891665754)]
+
+---
+
+class: middle
+# If it doesn't change your behavior, it's a bad metric
+
+![img-center-40](images/badmetric.png)
+.caption[Image Credit: Jurgen Appelo, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), via [Flickr](https://www.flickr.com/photos/jurgenappelo/8485492756)]
+
+---
+
+# Goodhart's Law
+--
+
+>“When a measure becomes a target, it ceases to be a good measure.”
+
+## - Charles Goodhart, Economist
+
+---
+
+# 4. Prioritization
+--
+
++ How do I meet optimal outcomes with limited resources?
+--
+
++ Best when you can minimize disruption
+--
+
++ Work within current workflow
+--
+
++ Support existing business practices
+
+---
+
+# Cincinnati Targets Urban Blight
+
+![img-center-40](images/cincinnatiurbanblight.jpg)
+.caption[Image Credit: Wholtone, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Abandoned-Over-the-Rhine-building.jpg)]
+
+[Learn more](https://dssg.uchicago.edu/2015/08/20/blight-prevention-building-strong-and-healthy-neighborhoods-in-cincinnati/)
+
+---
+
+# New Orleans Distributes Smoke Alarms
+
+![img-center-40](images/neworleansfire.jpeg)
+.caption[Image Credit: Michael Barnett [CC BY-SA 2.5](http://creativecommons.org/licenses/by-sa/2.5), via Wikimedia Commons]
+
+---
+
+# Targeted Outreach Saves Lives
+
+![img-center-90](images/nolasmokealarm.png)
+.caption[Image Credit: City of New Orleans, via [nola.gov](http://nola.gov/performance-and-accountability/nolalytics/files/full-report-on-analytics-informed-smoke-alarm-outr/)]
+
+---
+
+# Targeted Outreach Saves Lives
+
+![img-center-90](images/nolaimpact.png)
+.caption[Image Credit: City of New Orleans, via [nola.gov](http://nola.gov/performance-and-accountability/nolalytics/files/full-report-on-analytics-informed-smoke-alarm-outr/)]
+
+---
+
+class:center,middle
+# Discussion: What kind of analysis does your office do?
+
+---
+
+class:center,middle
+# 15 MIN BREAK
+
+---
+
+class:center,middle
+# 4 Concerns
+
+---
+
+# 1. Technical
+--
+
++ Having the right tools
+--
+
++ Having the people who can use them
+--
+
++ Making everything work together
+--
+
++ _Potential trap: having a solution in search of a problem_
+---
+
+# 2. Legal
+--
+
++ Laws
+--
+
++ Regulations
+--
+
++ Practices
+--
+
++ _Potential trap: not doing something because of mistaken assumptions_
+---
+
+# When HIPAA Gets In The Way of Health Care
+
+![img-center-35](images/hipaa.jpeg)
+
+.caption[Image Credit: Hipaa Nurse Shredding Papers, by [Atlantic Training](http://www.atlantictraining.com/blog/hipaa-compliance-paper-shredding-illustration2/), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en_US)]
+
+[Learn more](http://www.nytimes.com/2015/07/21/health/hipaas-use-as-code-of-silence-often-misinterprets-the-law.html?_r=1)
+
+---
+
+# 3. Cultural
+--
+
++ “We’ve always done it this way”
+--
+
++ “I’m not sure I understand how this works”
+--
+
++ _Potential trap: being afraid of rocking the boat_
+---
+
+# 4. Political
+--
+
++ Inter-departmental
+--
+
++ Intra-departmental
+--
+
++ Public relations
+--
+
++ _Potential trap: not putting the necessary effort into something that will pay dividends to your office and ultimately to the organization as a whole_
+---
+
+class:center,middle
+# Do You Have An Example of This?
+
+---
+
+# Benefits
+--
+
++ Time, money, lives saved
+--
+
++ Better delivery of services to stakeholders
+--
+
++ More transparency
+--
+
++ More accountability
+
+---
+
+# NYC Restaurant Inspectors Save Time
+
+![img-center-75](images/greasetrap_csessums.jpg)
+
+.caption[Image Credit: Grease Trap Cover Asphalt by [Christopher Sessums](https://www.flickr.com/photos/csessums/4740455231), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)]
+
+Source: http://www.nyc.gov/html/bic/downloads/pdf/pr/nyc_bic_dep_mayoroff_policy_10_18_12.pdf
+
+---
+
+# MTA Improves Purchase Options
+
+![img-center-75](images/mtacard.jpg)
+.caption[Image Credit: Richard Dunks (own work), [CC BY-SA 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/)]
+
+Source: http://iquantny.tumblr.com/post/109078777129/2230-might-just-be-the-new-1905-for-metrocards
+
+---
+
+# Keeping NYC Accountable on Parking Tickets
+
+![img-center-75](images/parkingticket.jpg)
+
+.caption[Image Credit: Charleston Parking Ticket by [Charleston's The Digitel](https://www.flickr.com/photos/29456235@N04/5396359471), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)]
+
+Source: http://iquantny.tumblr.com/post/87573867759/success-how-nyc-open-data-and-reddit-saved-new
+
+---
+
+# Group Exercise - Pre-K for All
+
+## Imagine you are members of the Mayor's Data Analytics Team, tasked with the following problem:
+
++ In 2013 there are ~104,000 4-yr olds in NYC but only 58,528 seats
++ Our goal: Increase enrollment by 30,000 next year and 20,000 the year after
++ Consider: capacity, outreach, enrollment, and impact
++ .red[What questions would you ask to kick off a data analysis?]
+
+
+---
+
+class:center,middle
+# BUILDING A DATA-DRIVEN CULTURE
+
+---
+
+# Data Driven Culture
+![img-center-95](images/ddc_compass.png)
+
+---
+
+# Data Driven Culture
+![img-center-95](images/ddc_compass_goals.png)
+
+---
+
+# Data Driven Culture
+![img-center-95](images/ddc_compass_data_literacy.png)
+
+---
+
+# Data Driven Culture
+![img-center-95](images/ddc_compass_sharing.png)
+
+---
+
+# Data Driven Culture
+![img-center-95](images/ddc_compass_leadership.png)
+
+---
+
+# Data Driven Culture
+![img-center-95](images/ddc_compass_questions.png)
+
+---
+
+# Data Driven Culture
+![img-center-95](images/ddc_compass_learning.png)
+
+---
+
+# Data Driven Culture
+![img-center-95](images/ddc_compass_testing.png)
+
+---
+
+# Data Driven Culture
+![img-center-95](images/ddc_compass_self_service.png)
+
+---
+
+# Data Driven Culture
+![img-center-95](images/ddc_compass_culture.png)
+
+---
+
+# Data Driven Culture
+![img-center-95](images/ddc_compass.png)
+
+---
+
+# Data Driven Culture
+> “Do you have data to back that up?” should be a question that no one is afraid to ask (and everyone is prepared to answer)
+
+## - Julie Arsenault
+
+[Source](https://www.pagerduty.com/blog/how-to-create-a-data-driven-culture/)
+
+---
+
+class:center,middle
+# WRAP-UP
+
+---
+class:center,middle
+# LUNCH
+
+---
+
+class:center, middle
+# WELCOME BACK!
+
+---
+
+# 6 Analytical Steps
+![img-center-90](images/sixphases_1.jpg)
+
+---
+
+# 1. Problem Formulation
+--
+
++ What question or need am I trying to answer?
+--
+
++ What’s my organization’s mission and goals?
+--
+
++ How can I best apply data to this task?
+
+---
+
+# 2. Data Gathering/Preliminary Analysis
+--
+
++ What data do I think I’m going to need?
+--
+
++ What condition is it in?
+--
+
++ Does it tell me what I need?
+--
+
++ What other data might I need?
+--
+
++ How much work do I need to put into the data?
+
+---
+
+# 3. Data Cleaning
+--
+
++ Make the data usable and compatible
+--
+
++ Takes up the most amount of time
+--
+
++ May require more sophisticated tools depending on the state and size of the data
+
+---
+
+# 4. Hypothesis Testing
+--
+
++ Am I getting the results I’d hoped for?
+--
+
++ What other questions come up?
+---
+
+# 5. Verification
+--
+
++ Do my results make sense?
+--
+
++ Did I make a simple mistake?
+--
+
++ Check twice and you’ll sleep easier
+---
+
+# Spreadsheet Errors Have Consequences
+
+![img-center-80](images/athensprotest.jpg)
+.caption[Image Credit: [http://underclassrising.net](https://www.flickr.com/photos/0742/4163565280), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)]
+
+---
+
+# To Err is Human
+
+> Since 1995, 88% of the 113 spreadsheets audited in 7 studies ... have contained errors.
+
+## - Raymond Panko, "[What We Know About Spreadsheet Errors](http://panko.shidler.hawaii.edu/My%20Publications/Whatknow.htm)"
+
+---
+
+# 6. Visualization
+--
+
++ “A picture is worth a thousand words”
+--
+
++ Communicate results clearly and concisely
+--
+
++ Help to better understand your data
+--
+
++ The eyes have a much higher bandwidth into the brain
+
+---
+
+# 6 Analytical Steps
+![img-center-90](images/sixphases_1.jpg)
+
+---
+
+# Definition of Open Data
+--
+
+> Open data is data that can be freely used, shared and built-on by anyone, anywhere, for any purpose
+
+## - [Open Knowledge International](http://blog.okfn.org/2013/10/03/defining-open-data/)
+
+---
+
+# Key Features of Open Data
+--
+
++ Availability and access
+--
+
++ Reuse and redistribution
+--
+
++ Universal participation
+---
+
+# Open Data Benefits
+--
+
++ Transparency
+--
+
++ Releasing social and commercial value
+--
+
++ Participation and engagement
+
+---
+
+# New Yorkers Save Millions In Parking Tickets
+
+![img-center-70](images/sidewalk-parking.jpg)
+.caption[Image Credit: [Ken Lund](https://www.flickr.com/photos/kenlund/7236966946), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)]
+
+[Learn more](http://iquantny.tumblr.com/post/144197004989/the-nypd-was-systematically-ticketing-legally)
+
+---
+
+# Open Data Concerns
+--
+
++ Privacy (Personally identifiable information (PII), Mosaic Effect)
+--
+
++ Confidentiality
+--
+
++ Security
+---
+
+# When Good Data Goes Bad
+
+![img-center-70](images/nyctaxi.jpeg)
+.caption[Image Credit: Kenny Louie, [CC BY 2.0](http://creativecommons.org/licenses/by/2.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ANYC_TAXI_(7038011669).jpg)]
+
+[Gawker matches Taxi and Limousine Data with Paparazzi Photos](http://gawker.com/the-public-nyc-taxicab-database-that-accidentally-track-1646724546)
+
+---
+
+class:center,middle
+# Links to NYC Open Data Portal for Exercise
+## <a href="https://data.cityofnewyork.us/" target="_blank">NYC Open Data Portal</a>
+
+---
+
+# Data for Exercise
+![img-center-100](images/od_exercise.png)
+
+#### [Click to download if you have problems](data/20160101_20160331_311NoiseContains.csv)
+
+---
+
+exclude:true
+# Finding Context
+
+![img-center-80](images/context.png)
+
+---
+
+exclude:true
+# Exploratory Data Analysis
++ Goal -> Discover patterns in the data
++ Understand the context
++ Summarize fields
++ Use graphical representations of the data
++ Explore outliers
+
+####Tukey, J.W. (1977). Exploratory data analysis. Reading, MA: Addison-Wesley
+
+---
+
+exclude:true
+# Question-Driven Analysis
++ Goal -> Answer a specific problem or concern
++ Have a question or problem in mind when analyzing data
++ “I need to know X”
++ Problem-focused discovery with the data
+
+---
+
+exclude:true
+# Exercise - Vision Zero (dB)
++ Given 311 noise complaint data, assist enforcement efforts by identifying community districts that have a high volume of noise complaints and the time frame enforcement resources should be deployed to combat the noise issue at its peak
++ Identify the prevalent types of noise complaints in these areas to guide enforcement in each community district
+
+---
+
+exclude:true
+#NYC Community Districts
+
+![img-center-65](images/cd_map.png)
+<!-- .caption[Image Credit: Fitnr, CC BY-SA 4.0, via [Wikimedia](https://commons.wikimedia.org/wiki/File%3ANew_York_City_community_districts.svg)]
+ -->
+---
+
+# Links to Other Open Data Portals
++ New York State - https://data.ny.gov
++ US Federal Government - https://www.data.gov/
+
+
+---
+
+class:center,middle
+# WRAP-UP
+
+---
+
+# What We've Covered
+--
+
++ Elements of a data-driven culture
+--
+
++ Types of analysis
+--
+
++ The analytics process
+--
+
++ What else?
+
+---
+
+# Final Thoughts
+--
+
++ Data tells a story
+--
+
++ Data is only as good as the decisions it enables
+--
+
++ Data is a strategic asset to the organization
+--
+
++ Data doesn't speak for itself
+--
+
++ Analysis is the search for understanding
+
+
+---
+
+# Resources
+--
+
++ [Stack Overflow](http://stackoverflow.com/) - One of the best Q&A sites for technical questions of all kinds
+--
+
++ [Microsoft Office Support](http://office.microsoft.com/en-us/support/) - Documentation on various MS Office products
+--
+
++ [Excel Tips](http://excel.tips.net/) - Various tips and tricks for using Excel
+--
+
++ [Data Science Cheatsheet](https://github.com/govex/Data-Science) - Includes various terms and concepts related to data science
+
+---
+
+# Resources
++ Carl Anderson [_Creating a Data-Driven Organization_](http://shop.oreilly.com/product/0636920035848.do)
++ DJ Patil & Hilary Mason [_Data Driven: Creating a Data Culture_](https://www.oreilly.com/ideas/data-driven)
++ Richard Thaler and Cass Sunstein [_Nudge:Improving Decisions About Health, Wealth, and Happiness_](http://nudges.org/)
++ [Copy of today's handout](20170515_ManagementAcademy_Workbook.pdf)
+
+---
+name:day2
+
+# Agenda for Day 2
+--
+
++ Gallery of Interesting Projects
+--
+
++ Homework
+--
+
++ Data Exercises
+--
+
++ Dismissal
+
+---
+
+# Gallery of Interesting Projects
+--
+
++ [Wikipedia Worldview](http://www.wikipediaworldview.net/)
+--
+
++ [A Day in the Life of a NYC Taxi](http://chriswhong.github.io/nyctaxi/)
+--
+
++ [Living Lots (formerly 596 Acres)](https://livinglotsnyc.org/#11/40.7300/-73.9900)
+--
+
++ [OpenSewer Atlas](http://openseweratlas.tumblr.com/map)
+--
+
++ [Twitter NYC: A Multilingual City](http://ny.spatial.ly/)
+--
+
++ [Pluto Pages](https://plutopages.com/)
+--
+
++ [Capital Planning Platform](https://capitalplanning.nyc.gov/facilities)
+--
+
++ [City of Denton, TX Dashboard](http://data.cityofdenton.com/showcase)<br>
+--
+
++ [MTA Subway Station Status Interactive Map](http://www.datapolitan.com/mta_station_repair_status/)
+
+---
+
+exclude:true
+# And those Commissioners...
+
+![img-center-80](https://pbs.twimg.com/media/DAr2zZwXkAAjUrA.jpg)
+.center[https://twitter.com/NYC_DOT/status/867778502971592706]
+
+
+---
+
+name:homework
+# Homework
+--
+
++ Think about the 311 data you downloaded
+--
+
++ Identify 3 questions you'd like to explore
+--
+
++ Think about things like who, what, where, and when
+--
+
++ What would be the value of knowing this
+--
+
++ "If I knew X we could do Y"
+--
+
++ .blue[Write these down on Post-Its]
+--
+
++ .blue[Share with your partner]
+--
+
++ .blue[Let's discuss]
+
+---
+
+class:center,middle
+# Working with Open Data
+## [Download this data](data/311_Noise_20150601_20150830.csv)
+
+---
+
+class:center,middle
+# [Click to Download<br>NYC Population Data 1970 - 2010](data/NYC_Population_1970-2010_formatted.xlsx)
+
+---
+
+class:center,middle
+# Wrap-Up
+
+---
+
+# Remember...
+--
+
++ Data tells a story
+--
+
++ Where there's a will, there's a way
+--
+
++ Sometimes you just need to think about your problem differently
+
+![img-center-60](https://imgs.xkcd.com/comics/security.png)
+
+
+---
+
+# Homelessness in NYC
+<iframe width="100%" height="480" frameborder="0" src="https://richard-datapolitan.carto.com/viz/143c4e52-34e7-11e7-91e8-0ef7f98ade21/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+---
+
+## Contact Information
+## Richard Dunks
++ Email: richard[at]datapolitan[dot]com
++ Blog: http://blog.datapolitan.com
++ Twitter: [@datapolitan](https://twitter.com/datapolitan)
+
+## Julia Marden
++ Email: julia[at]tinypanther[dot]com
++ Website: http://tinypanther.com
++ Twitter: [@juliaem](https://twitter.com/juliaem)
+
+---
+
+class:center, middle
+#THANK YOU!
+
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create(
+        // {
+        //   slideNumberFormat: ""}
+        );
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55673554-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
+</html>
